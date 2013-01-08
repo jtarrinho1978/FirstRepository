@@ -1,0 +1,54 @@
+html {
+  min-height: 100%;
+  width: 100%;
+}
+
+body {
+  min-height: 100%;
+
+  background: #fff;
+
+  font-family: 'Asap', sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 1em;
+  color: #d5dee0;
+}
+
+a {
+  text-decoration: none;
+  -webkit-transition:all .2s;  
+  -moz-transition:all .2s;  
+  -o-transition:all .2s;  
+  transition:all .2s;  
+}
+
+a:hover {
+  opacity: .7;
+  -webkit-transition:all .2s;  
+  -moz-transition:all .2s;  
+  -o-transition:all .2s;  
+  transition:all .2s; 
+}
+
+.nome{ color: #f65857; }
+.optimus { color: orange; }
+.sheraton{ color: #d6e03d; }
+.sonae{ color: #25bfcb; }
+.site{ color: #070604; }
+
+
+
+
+.container {
+  max-width: 990px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media all and (max-width: 480px) {
+  body {
+    font-size: 28px;
+
+  }
+}
